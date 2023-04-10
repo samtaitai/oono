@@ -1,0 +1,272 @@
+<!--
+    a)	the history of the game
+    b)	the rules of game play and/or a description of how to play the game
+    c)	your best tips and strategies for winning
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Soyon Lee" />
+    <meta name="description" content="WEB222 Final Assessment" />
+    <title>UNO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;800&family=Noto+Serif&family=Oxygen+Mono&family=Oxygen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+  </head>
+  <body>
+    <nav id="topmenu">
+      <ul>
+        <li>
+          <a href="./index.html">Home of UNO.</a>
+        </li>
+        <li><a href="./info.html">What is UNO.</a></li>
+        <li><a href="./review.html">Play Reviews.</a></li>
+        <li><a href="./about.html">About Me.</a></li>
+      </ul>
+    </nav>
+    <div id="info-container">
+      <section class="color-orange">
+        <h1 class="toph1">Ready to play UNO?</h1>
+        <nav id="sidemenu">
+          <ul id="sidebar">
+            <li><a href="#uno-history">The history of UNO</a></li>
+            <li><a href="#uno-rules">How to play UNO</a></li>
+            <li><a href="#uno-tips">UNO Pro Tips</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="color-beige">
+        <article class="uno-info">
+          <h2>The history of UNO</h2>
+          <p>
+            <em>UNO</em> was created in <time datetime="1971">1971</time> by a
+            guy named Merle Robbins. He ran a barber shop in a small town in
+            Ohio but besides of his day job, he was a great enthusiasts of card
+            games. Not only Merle Robbins himself, but his entire family were
+            greatly into playing cards. One day, Robbins and his son had a
+            dispute over a rule of card game called
+            <em
+              ><a href="https://en.wikipedia.org/wiki/Crazy_Eights"
+                >'Crazy Eights'</a
+              ></em
+            >. Not like any other father, a huge geek Robbins tried to resolve a
+            disagreement by creating a new card game by himself. The very first
+            <em>UNO</em> cards were made on Robbins family dining room table by
+            hand, which is a humble origin story of <em>UNO</em>!
+          </p>
+          <figure>
+            <picture>
+              <img alt="uno cards" width="360" src="./media/unocards.avif" />
+              <source alt="uno cards" srcset="./media/unocards.jpg" />
+            </picture>
+            <figcaption>The classic UNO card deck</figcaption>
+          </figure>
+          <p>
+            At first, <em>UNO</em> was simply for Robbins family to enjoy but it
+            became clear to Robbins family that the game had major potential.
+            Robbins family started sell <em>UNO</em> games at the barber shop
+            and soon, the popularity of the game became obvious. With a great
+            deal of faith in the creation, the family sold out the barbershop,
+            even their house to finance to manufacture the first
+            <data value="5000">5,000</data> games of <em>UNO</em>. bought a
+            camping trailer and traveled Ohio, Texas, Florida to promote the
+            card game and educate people. They successfully sold 5,000 copies
+            and got enough funds to produce another
+            <data value="10000">10,000</data> copies of the game. The business
+            was growing further and it was only matter of time the opportunity
+            of being introduced internationally showed up. How cool it was!
+          </p>
+        </article>
+      </section>
+      <section class="color-orange">
+        <article class="uno-info">
+          <h2>How to play UNO</h2>
+          <h3>
+            The goal of the game is to be the first player who discards all of
+            cards in your hands!
+          </h3>
+          <h3>
+            <span id="highlight">In a UNO deck, we have:</span>
+          </h3>
+          <ul id="components">
+            <li>
+              <strong>19 Blue, Green, Red, Yellow cards</strong> for each colors
+            </li>
+            <li>
+              <strong>8 skip cards:</strong> when you play this card, the next
+              person lose his/her chance to discard a card!
+            </li>
+            <li>
+              <strong>8 reverse cards:</strong> this card reverses direction of
+              play.
+            </li>
+            <li>
+              <strong>8 draw 2 cards:</strong> when you play this card, the next
+              person should draw 2 cards in his/her turn!
+            </li>
+            <li>
+              <strong>4 draw 4 cards:</strong> now the next person should draw 4
+              cards in his/her turn! How dare you!
+            </li>
+            <li>
+              <strong>4 wild cards:</strong> when you play this card, you can
+              now choose a color of playable card!
+            </li>
+          </ul>
+
+          <h3>
+            <span id="highlight">How to set up?</span>
+          </h3>
+          <p>
+            Each player draws a card, the player with the highest point card is
+            the dealer. The dealer shuffles a deck, and each player has 7 cards
+            at the beginning. Place the remaining cards facedown to form a draw
+            pile. Turn over a top card of the pile to begin a discard pile.
+          </p>
+          <h3>
+            <span id="highlight">How to play?</span>
+          </h3>
+          <ol id="rules">
+            <li>
+              Player to the left of the dealer starts first. Match the top card
+              on the discard pile either by number, color, or word. If you don't
+              have anything that matches, you must pick a card from the draw
+              pile.
+            </li>
+            <li>
+              Before you play your last card,
+              <strong>you must say “UNO”</strong>. If you don't say it or
+              another player catches you, you must pick 4 more cards from the
+              draw pile as a penalty. When the victory is on the horizon, you'd
+              better be sneaky!
+            </li>
+            <li>
+              If no one is out of cards by the time the draw pile is depleted,
+              reshuffle the discard pile and continue play.
+            </li>
+          </ol>
+          <p>
+            Once a player has played all of cards and hands empty, he/she wins
+            the game and the round is over. In order to rank the others, points
+            are calculated based upon the remaining cards that are in the hands
+            of other players.
+          </p>
+          <ul id="score">
+            <li><strong>Wild or Wild draw 4 cards:</strong> 50 points each.</li>
+            <li>
+              <strong>Wild swap hands or wild customizable:</strong> 40 points
+              each.
+            </li>
+            <li>
+              <strong>Draw 2, reverse, a skip card:</strong> 20 points each.
+            </li>
+            <li>All numbered cards retain its face value.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="color-beige">
+        <article class="uno-info">
+          <h2>Pro tips for beginners</h2>
+          <h3>
+            <span id="highlight">Pay attention to your opponents</span>
+          </h3>
+          <p>
+            Make others gaining cards by all means! Always count the number of
+            cards of your opponents. When a player has a lot of cards and but he
+            still changes to a certain color, be careful! He is soon about to
+            get rid of tons of cards. Similar, when your opponent has to keep
+            drawing cards on a color, stick to the current color; don't let them
+            get that chance!
+          </p>
+          <h3>
+            <span id="highlight">Keep +2 and +4 for emergencies</span>
+          </h3>
+          <p>
+            Keep the blows until the right time! If you play them too early, you
+            have nothing left in case of an emergency later. When you see
+            players having two or fewer cards, it's for sure time to use these
+            cards.
+          </p>
+          <figure>
+            <picture>
+              <img
+                alt="uno cards"
+                width="360"
+                src="./media/playingcards.avif"
+              />
+              <source alt="uno cards" srcset="./media/playingcards.jpg" />
+            </picture>
+            <figcaption>Anybody can learn playing UNO!</figcaption>
+          </figure>
+          <h3>
+            <span id="highlight">Avoid someone from going out</span>
+          </h3>
+          <p>
+            If some player is down to one card, you need to do whatever you can
+            to stop him/her. Use action card like +2 or +4, reverse the play
+            order, change the color, at all costs! Check also if people forget
+            to say Uno when they have one. Make sure they get the sweet penalty
+            they deserve.
+          </p>
+          <h3>
+            <span id="highlight">Quickly get rid of matched numbers</span>
+          </h3>
+          <p>
+            For instance, if you have a yellow 4, a green 4, and a red 4, get
+            rid of at least 2 of them. Do not make your hands heavy with
+            repetitive cards.
+          </p>
+          <h3>
+            <span id="highlight">Play series of similar color cards first</span>
+          </h3>
+          <p>
+            Select all the same color cards in your hand so that you prevent the
+            next player from having a turn and playing them first. Use your draw
+            2 card, skip card, or reverse card in a row. You might lose your
+            best friend by doing this, but it will increase your chances of
+            winning anyway!
+          </p>
+        </article>
+      </section>
+    </div>
+    <footer id="footer-container">
+      <p>&copy; 2023 Soyon Lee. All Rights Reserved</p>
+      <address>
+        <ul>
+          <li>
+            <a href="mailto:slee550@myseneca.ca"
+              ><span class="material-symbols-outlined"> mail </span></a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/samtaitai"
+              ><i class="devicon-github-original"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/soyonlee/"
+              ><i class="devicon-linkedin-plain"></i
+            ></a>
+          </li>
+        </ul>
+      </address>
+    </footer>
+    <script src="./js/data.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

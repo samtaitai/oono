@@ -1,0 +1,199 @@
+<!--
+    This page should give a short description of the game, \
+    include some media (e.g., images, videos, YouTube embed i frames) about the game, \
+    and provide details and links to other parts of the site
+
+    At the bottom of the page, include an HTML Form for the user \
+    to enter their email address and join the site’s Newsletter.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Soyon Lee" />
+    <meta name="description" content="WEB222 Final Assessment" />
+    <title>UNO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;800&family=Noto+Serif&family=Oxygen+Mono&family=Oxygen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+  </head>
+  <body>
+    <nav id="topmenu">
+      <ul>
+        <li>
+          <a href="./index.html">Home of UNO.</a>
+        </li>
+        <li><a href="./info.html">What is UNO.</a></li>
+        <li><a href="./review.html">Play Reviews.</a></li>
+        <li><a href="./about.html">About Me.</a></li>
+      </ul>
+    </nav>
+    <main class="container">
+      <section class="color-beige">
+        <h1 hidden>UNO</h1>
+        <figure id="logo">
+          <picture>
+            <img
+              id="logoimg"
+              alt="uno logo"
+              width="360"
+              src="./media/UNO_Logo.svg"
+            />
+            <source alt="uno logo" srcset="./media/UNO_Logo.avif" />
+            <source alt="uno logo" srcset="./media/UNO_Logo.jpg" />
+          </picture>
+        </figure>
+        <h2>
+          World's most simplest card game...<br />
+          But the fun never ends!
+        </h2>
+        <p id="index-description">
+          Have you heard of UNO? Beloved since 1971, invented by a father,
+          designed for family time. Best with 4 people, serves well for anybody.
+        </p>
+        <!-- video -->
+        <figure id="youtube">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Gexmi0P5cw8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </figure>
+      </section>
+      <section class="color-orange">
+        <section id="learn">
+          <h3>In this website, you learn:</h3>
+          <ul>
+            <li>
+              <span class="material-symbols-outlined"> casino </span
+              ><a href="./info.html">How to play and win UNO?</a>
+            </li>
+            <li>
+              <span class="material-symbols-outlined"> record_voice_over </span>
+              <a href="./review.html">That's how I love UNO!</a>
+            </li>
+            <li>
+              <span class="material-symbols-outlined">
+                sentiment_very_satisfied </span
+              ><a href="./about.html">About this website</a>
+            </li>
+          </ul>
+        </section>
+        <!-- img carousel(slideshow) -->
+        <section class="slideshow-container">
+          <figure class="slide-fade">
+            <img
+              src="./media/slide1.jpg"
+              style="width: 100%"
+              alt="UNO card pile"
+            />
+          </figure>
+          <figure class="slide-fade" hidden>
+            <img
+              src="./media/slide2.jpg"
+              style="width: 100%"
+              alt="grabbing a card"
+            />
+          </figure>
+          <figure class="slide-fade" hidden>
+            <img
+              src="./media/slide3.jpg"
+              style="width: 100%"
+              alt="UNO card pile"
+            />
+          </figure>
+          <figure class="slide-fade" hidden>
+            <img
+              src="./media/slide4.jpg"
+              style="width: 100%"
+              alt="Displayed UNO cards"
+            />
+          </figure>
+        </section>
+        <div style="text-align: center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </section>
+    </main>
+    <section class="color-beige">
+      <article id="signup">
+        <h3>Try our newsletter. Let's keep in touch!</h3>
+        <p>Be the first to hear about the latest UNO news</p>
+        <form id="signup-form" action="https://httpbin.org/post" method="post">
+          <!-- newsletter form -->
+          <input
+            id="name"
+            name="name"
+            value="soyon"
+            type="text"
+            maxlength="120"
+            placeholder="Enter your name"
+            hidden
+          />
+          <label id="newsletter-label" for="newsletter"
+            >Email address
+            <input
+              id="newsletter"
+              name="email"
+              type="email"
+              placeholder="Enter your email"
+              required
+          /></label>
+          <div>
+            <input id="agree" name="marketing" type="checkbox" />
+            <label id="agree" for="agree">
+              I agree to receive special offers and deals via email
+            </label>
+          </div>
+          <button class="submit" type="submit">Join</button>
+        </form>
+      </article>
+    </section>
+
+    <footer id="footer-container">
+      <p>&copy; 2023 Soyon Lee. All Rights Reserved</p>
+      <address>
+        <ul>
+          <li>
+            <a href="mailto:slee550@myseneca.ca"
+              ><span class="material-symbols-outlined"> mail </span></a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/samtaitai"
+              ><i class="devicon-github-original"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/soyonlee/"
+              ><i class="devicon-linkedin-plain"></i
+            ></a>
+          </li>
+        </ul>
+      </address>
+    </footer>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
