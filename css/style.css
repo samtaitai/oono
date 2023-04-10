@@ -1,4 +1,16 @@
 @media only screen and (max-width: 400px) {
+  #topmenu {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  #topmenu p {
+    margin-bottom: 0.5em;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
   nav ul {
     display: flex;
     flex-direction: column;
@@ -135,6 +147,23 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: baseline;
+}
+
+#topmenu p {
+  margin-left: 2em;
+}
+
+#site-title {
+  font-size: 3em;
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+}
+
+#site-desc {
+  font-size: 0.6em;
 }
 
 nav ul {
@@ -239,6 +268,7 @@ footer {
 #footer-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 32px;
 }
 
