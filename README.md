@@ -3,5 +3,13 @@ This website fully supports:
 * semantic HTML5
 * Responsive design backed by pure CSS, Media Query
 * Dynamically generated review card contents
-* Live version powered by Cloudflare [click here](https://oono.pages.dev/)
+* [Live version](https://oono.pages.dev/) powered by Cloudflare
+### Screenshots
+<img src="https://github.com/samtaitai/oono/blob/main/screenshot1.png"  width="400">
+
+<img src="https://github.com/samtaitai/oono/blob/main/screenshot2.png"  width="400">
+
+<img src="https://github.com/samtaitai/oono/blob/main/screenshot3.png"  width="200">
+
+<img src="https://github.com/samtaitai/oono/blob/main/screenshot4.png"  width="200">
 
