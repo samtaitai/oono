@@ -57,7 +57,7 @@
       <section id="review-form-container">
         <h2>Let's share your UNO experience!</h2>
         <!-- new review form -->
-        <form id="review-form" action="https://httpbin.org/post" method="post">
+        <form id="review-form" action="./review.html" method="post">
           <div id="review-grid">
             <label for="username">What's your name? </label>
             <input
@@ -65,6 +65,7 @@
               name="username"
               type="text"
               placeholder="Enter your name"
+              minlength="3"
               required
             />
             <label for="date">When do you play it? </label>

@@ -74,18 +74,16 @@ function createCard() {
 
 //review creation
 const reviewBtn = document.querySelector("#create-review");
+const reviewForm = document.querySelector("#review-form");
 
 document.addEventListener("DOMContentLoaded", function () {
-  reviewBtn.addEventListener("click", function (e) {
+  reviewForm.addEventListener("submit", function (e) {
     e.preventDefault();
 
     const username = document.querySelector("#username").value;
     const date = document.querySelector("#date").value;
     const rating = document.querySelector("#rating").value;
     const review = document.querySelector("#review-text").value;
-
-    console.log("click");
-    console.log(username, date, rating, review);
 
     let obj = {};
     obj.username = username;
