@@ -1,6 +1,7 @@
 # OoNO! Unofficial website for UNO game
 This website fully supports: 
-* semantic HTML5
+* Semantic HTML5
+* Client side HTML5 form validations 
 * Responsive design backed by pure CSS, Media Query
 * Dynamically generated review card contents
 * [Live version](https://oono.pages.dev/) powered by Cloudflare
